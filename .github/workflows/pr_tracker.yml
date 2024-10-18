@@ -48,14 +48,14 @@ jobs:
 
       # Step 6: Upload pr_reviews.csv as Artifact
       - name: Upload PR Reviews CSV
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: pr_reviews
           path: pr_reviews.csv
 
       # Step 7: Upload authored_prs.csv as Artifact
       - name: Upload Authored PRs CSV
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: authored_prs
           path: authored_prs.csv
