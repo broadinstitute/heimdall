@@ -14,6 +14,9 @@ jobs:
       # Step 1: Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          # Fetch all history so that git push can find the latest commits
+          fetch-depth: 0
 
       # Step 2: Install Dependencies (gh CLI and jq)
       - name: Install Dependencies
@@ -31,7 +34,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y gh
 
-      # Step 3: Authenticate GitHub CLI with PAT
+      # Step 3: Authenticate GitHub CLI with Fine-Grained PAT
       - name: Authenticate gh CLI
         env:
           GITHUB_PAT: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
@@ -46,16 +49,26 @@ jobs:
       - name: Run PR Tracker Script
         run: ./scripts/pr_tracker.sh
 
-      # Step 6: Upload pr_reviews.csv as Artifact
-      - name: Upload PR Reviews CSV
-        uses: actions/upload-artifact@v3
-        with:
-          name: pr_reviews
-          path: pr_reviews.csv
+      # Step 6: Configure Git for Commit
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
 
-      # Step 7: Upload authored_prs.csv as Artifact
-      - name: Upload Authored PRs CSV
-        uses: actions/upload-artifact@v3
-        with:
-          name: authored_prs
-          path: authored_prs.csv
+      # Step 7: Commit CSV Files if There Are Changes
+      - name: Commit CSV Reports
+        run: |
+          # Navigate to the directory where CSVs are stored
+          # For example, if you store them in /reports/, adjust accordingly
+          # Here, assuming they're in the root directory
+
+          # Check for changes in the CSV files
+          git add pr_reviews.csv authored_prs.csv
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            # Commit changes with a timestamp
+            git commit -m "Update PR reports - $(date +"%Y-%m-%d %H:%M:%S")"
+            # Push changes
+            git push origin HEAD:${{ github.ref }}
+          fi
