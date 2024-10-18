@@ -1,0 +1,62 @@
+name: PR Tracker
+
+# Trigger the workflow on a schedule
+on:
+  schedule:
+    # Runs daily at 9:00 AM UTC
+    - cron: '0 9 * * *'
+
+# Define the job
+jobs:
+  track_prs:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # Step 2: Install Dependencies (gh CLI and jq)
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+          # Install GitHub CLI (gh)
+          type -p curl >/dev/null || (sudo apt-get install -y curl)
+          curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | \
+            sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+          sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg
+          echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | \
+            sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+          sudo apt-get update
+          sudo apt-get install -y gh
+
+      # Step 3: Authenticate GitHub CLI
+      - name: Authenticate gh CLI
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "${GITHUB_TOKEN}" | gh auth login --with-token
+
+      # Step 4: Make the script executable (if not already)
+      - name: Make Script Executable
+        run: chmod +x scripts/pr_tracker.sh
+
+      # Step 5: Run the PR Tracker Script
+      - name: Run PR Tracker Script
+        run: ./scripts/pr_tracker.sh
+
+      # Step 6: Upload pr_reviews.csv as Artifact
+      - name: Upload PR Reviews CSV
+        uses: actions/upload-artifact@v3
+        with:
+          name: pr_reviews
+          path: pr_reviews.csv
+
+      # Step 7: Upload authored_prs.csv as Artifact
+      - name: Upload Authored PRs CSV
+        uses: actions/upload-artifact@v3
+        with:
+          name: authored_prs
+          path: authored_prs.csv
