@@ -1,12 +1,11 @@
 name: PR Tracker
 
-# Trigger the workflow on a schedule
 on:
   schedule:
     # Runs daily at 9:00 AM UTC
     - cron: '0 9 * * *'
+  workflow_dispatch: # Allows manual triggering (optional)
 
-# Define the job
 jobs:
   track_prs:
     runs-on: ubuntu-latest
@@ -32,12 +31,12 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y gh
 
-      # Step 3: Authenticate GitHub CLI
+      # Step 3: Authenticate GitHub CLI with PAT
       - name: Authenticate gh CLI
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_PAT: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
-          echo "${GITHUB_TOKEN}" | gh auth login --with-token
+          echo "${GITHUB_PAT}" | gh auth login --with-token
 
       # Step 4: Make the script executable (if not already)
       - name: Make Script Executable
