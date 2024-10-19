@@ -7,6 +7,8 @@ Automated Pull Request Tracking
 - `pr_reviews.csv`: PRs awaiting reviews.
 - `authored_prs.csv`: PRs authored by team members.
 
+This [gsheet](https://docs.google.com/spreadsheets/d/1PoB0zUG5kA4RmYVJQttt7a6ojRkMZ9VH_hAzs4Byogs/edit?gid=0#gid=0) imports these CSVs into tabs for easy browsing.
+
 ## Setup
 
 1. **Create a Personal Access Token (PAT)**
