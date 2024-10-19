@@ -16,7 +16,7 @@ TEAM_MEMBERS=("alxndrkalinin" "johnarevalo" "afermg" "leoank" "srijitseal" "jess
               reviewer_value=""
           fi
 
-          gh search prs "${search_option}" --state=open --json title,url,repository,author,createdAt \
+          gh search prs "${search_option}" --state=open --limit=100 --json title,url,repository,author,createdAt \
           | jq -r --arg type "${type_value}" --arg reviewer "${reviewer_value}" '.[] | {
               type: $type,
               title: .title,
