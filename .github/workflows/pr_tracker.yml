@@ -63,7 +63,7 @@ jobs:
           # Here, assuming they're in the root directory
 
           # Check for changes in the CSV files
-          git add pr_reviews.csv authored_prs.csv
+          git add pr.csv
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

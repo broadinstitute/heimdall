@@ -2,12 +2,9 @@
 
 Automated Pull Request Tracking
 
-## Reports
+`pr.csv` contains PRs awaiting reviews (`review-requested`) or authors (`authored`) for each team member.
 
-- `pr_reviews.csv`: PRs awaiting reviews.
-- `authored_prs.csv`: PRs authored by team members.
-
-This [gsheet](https://docs.google.com/spreadsheets/d/1PoB0zUG5kA4RmYVJQttt7a6ojRkMZ9VH_hAzs4Byogs/edit?gid=0#gid=0) imports these CSVs into tabs for easy browsing.
+This [gsheet](https://docs.google.com/spreadsheets/d/1PoB0zUG5kA4RmYVJQttt7a6ojRkMZ9VH_hAzs4Byogs/edit?gid=0#gid=0) imports this CSV for easy browsing.
 
 ## Setup
 
