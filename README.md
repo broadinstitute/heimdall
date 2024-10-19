@@ -8,10 +8,6 @@ This [gsheet](https://docs.google.com/spreadsheets/d/1PoB0zUG5kA4RmYVJQttt7a6ojR
 
 ## Setup
 
-1. **Create a Personal Access Token (PAT)**
-   - **Scopes:**
-     - **Metadata:** Read-only
-     - **Pull requests:** Read-only
-2. **Add PAT to Repository Secrets**
-   - Go to **Settings > Secrets and variables > Actions**
-   - Add a new secret named `PERSONAL_ACCESS_TOKEN` with your PAT.
+1. Fork the repo and update `pr_tracker.sh` with your team members.
+2. Create a classic Personal Access Token (PAT) in GitHub Settings > Developer settings > Personal access tokens. Select the "repo" scope for full control of private repositories and the "read:org" scope to read org and team membership.
+3. Add the PAT to your forked repository's secrets (Settings > Secrets and variables > Actions) as `PERSONAL_ACCESS_TOKEN`.
