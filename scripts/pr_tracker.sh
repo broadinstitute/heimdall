@@ -7,7 +7,7 @@
 # =======================
 
 # Define team members
-TEAM_MEMBERS=("afermg" "shntnu")  # Replace with your team members
+TEAM_MEMBERS=("alxndrkalinin" "johnarevalo" "afermg" "leoank" "srijitseal" "jessica-ewald" "sarakh1999" "HugoHakem" "timtreis" "shntnu" "AnneCarpenter")  # Replace with your team members
 
 # Output CSV files
 REVIEWS_CSV="pr_reviews.csv"
