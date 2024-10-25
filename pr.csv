@@ -14,7 +14,6 @@
 "authored","cytomining/copairs","add option to randomly sample negative pairs","jessica-ewald","2024-02-06","","https://github.com/cytomining/copairs/pull/56"
 "review-requested","sut-ai/supplementary","added 3D vision","kimianoorbakhsh","2021-10-01","sarakh1999","https://github.com/sut-ai/supplementary/pull/8"
 "authored","broadinstitute/monorepo","Add get_jump_image_iter, fix tqdm","HugoHakem","2024-08-19","","https://github.com/broadinstitute/monorepo/pull/44"
-"review-requested","conda-forge/spatialdata-plot-feedstock","spatialdata-plot v0.2.7","regro-cf-autotick-bot","2024-10-24","timtreis","https://github.com/conda-forge/spatialdata-plot-feedstock/pull/5"
 "review-requested","scverse/spatialdata-notebooks","add speed up demonstration of datashader","Sonja-Stockhaus","2024-07-30","timtreis","https://github.com/scverse/spatialdata-notebooks/pull/109"
 "review-requested","scverse/squidpy","Sliding window","FrancescaDr","2024-07-25","timtreis","https://github.com/scverse/squidpy/pull/859"
 "review-requested","scverse/squidpy","Add function for calculating niches","LLehner","2024-05-27","timtreis","https://github.com/scverse/squidpy/pull/831"
