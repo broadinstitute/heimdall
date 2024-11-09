@@ -17,7 +17,7 @@
 "review-requested","scverse/squidpy","Add function for calculating niches","LLehner","2024-05-27","timtreis","https://github.com/scverse/squidpy/pull/831"
 "review-requested","theislab/jump-cpg0016-segmentation","Split single massive aggregation into several smaller ones","npeschke","2024-05-19","timtreis","https://github.com/theislab/jump-cpg0016-segmentation/pull/4"
 "review-requested","scverse/squidpy","Add method to calculate embeddings for variable by distance aggregation","LLehner","2024-03-04","timtreis","https://github.com/scverse/squidpy/pull/807"
-"authored","timtreis/2023_Arevalo_BatchCorrection","Modify plottin logic to accept multiple eval_keys","timtreis","2024-11-05","","https://github.com/timtreis/2023_Arevalo_BatchCorrection/pull/3"
+"authored","timtreis/2023_Arevalo_BatchCorrection","Pivot parts of the pipeline to adata so we can use scib-metrics Benchmarker","timtreis","2024-11-09","","https://github.com/timtreis/2023_Arevalo_BatchCorrection/pull/4"
 "authored","scverse/spatialdata-notebooks","Reran Visium notebook and added watermark","timtreis","2024-10-25","","https://github.com/scverse/spatialdata-notebooks/pull/122"
 "authored","scverse/squidpy_notebooks","Add morphology toolbox example","timtreis","2024-09-16","","https://github.com/scverse/squidpy_notebooks/pull/134"
 "authored","scverse/spatialdata-plot","Refactoring of colorbar logic","timtreis","2024-09-04","","https://github.com/scverse/spatialdata-plot/pull/349"
