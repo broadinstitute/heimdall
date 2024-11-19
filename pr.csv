@@ -10,7 +10,7 @@
 "authored","NixOS/nixpkgs","add lz4json","afermg","2024-07-14","","https://github.com/NixOS/nixpkgs/pull/327009"
 "review-requested","broadinstitute/monorepo","more annotations","johnarevalo","2024-04-23","leoank","https://github.com/broadinstitute/monorepo/pull/28"
 "review-requested","the-turing-way/the-turing-way","Added README-Hindi.md","bantya","2021-10-27","leoank","https://github.com/the-turing-way/the-turing-way/pull/2144"
-"authored","broadinstitute/2024_03_18_OASIS","added ids to ordered compounds","srijitseal","2024-11-17","","https://github.com/broadinstitute/2024_03_18_OASIS/pull/12"
+"authored","broadinstitute/2024_03_18_OASIS","Added OASIS ID to new ordered compounds","srijitseal","2024-11-18","","https://github.com/broadinstitute/2024_03_18_OASIS/pull/13"
 "authored","srijitseal/compound-annotator","Create StandardizeMolecule_v2.py","srijitseal","2023-09-16","","https://github.com/srijitseal/compound-annotator/pull/1"
 "authored","broadinstitute/2016_08_01_RadialMitochondriaDistribution_donna","Analyze lists","jessica-ewald","2024-11-12","","https://github.com/broadinstitute/2016_08_01_RadialMitochondriaDistribution_donna/pull/27"
 "authored","cytomining/copairs","add option to randomly sample negative pairs","jessica-ewald","2024-02-06","","https://github.com/cytomining/copairs/pull/56"
