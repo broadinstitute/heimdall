@@ -19,7 +19,6 @@
 "review-requested","scverse/squidpy","Add function for calculating niches","LLehner","2024-05-27","timtreis","https://github.com/scverse/squidpy/pull/831"
 "review-requested","theislab/jump-cpg0016-segmentation","Split single massive aggregation into several smaller ones","npeschke","2024-05-19","timtreis","https://github.com/theislab/jump-cpg0016-segmentation/pull/4"
 "review-requested","scverse/squidpy","Add method to calculate embeddings for variable by distance aggregation","LLehner","2024-03-04","timtreis","https://github.com/scverse/squidpy/pull/807"
-"authored","timtreis/2023_Arevalo_BatchCorrection","Major refactor","timtreis","2024-11-22","","https://github.com/timtreis/2023_Arevalo_BatchCorrection/pull/9"
 "authored","carpenter-singh-lab/2023_Arevalo_NatComm_BatchCorrection","Major refactor","timtreis","2024-11-22","","https://github.com/carpenter-singh-lab/2023_Arevalo_NatComm_BatchCorrection/pull/19"
 "authored","scverse/spatialdata-notebooks","Reran Visium notebook and added watermark","timtreis","2024-10-25","","https://github.com/scverse/spatialdata-notebooks/pull/122"
 "authored","scverse/squidpy_notebooks","Add morphology toolbox example","timtreis","2024-09-16","","https://github.com/scverse/squidpy_notebooks/pull/134"
