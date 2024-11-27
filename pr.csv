@@ -15,7 +15,7 @@
 "authored","broadinstitute/2016_08_01_RadialMitochondriaDistribution_donna","Analyze lists","jessica-ewald","2024-11-12","","https://github.com/broadinstitute/2016_08_01_RadialMitochondriaDistribution_donna/pull/27"
 "authored","cytomining/copairs","add option to randomly sample negative pairs","jessica-ewald","2024-02-06","","https://github.com/cytomining/copairs/pull/56"
 "review-requested","sut-ai/supplementary","added 3D vision","kimianoorbakhsh","2021-10-01","sarakh1999","https://github.com/sut-ai/supplementary/pull/8"
-"authored","broadinstitute/monorepo","Add get_jump_image_iter, fix tqdm","HugoHakem","2024-08-19","","https://github.com/broadinstitute/monorepo/pull/44"
+"review-requested","conda-forge/spatialdata-plot-feedstock","spatialdata-plot v0.2.8","regro-cf-autotick-bot","2024-11-26","timtreis","https://github.com/conda-forge/spatialdata-plot-feedstock/pull/6"
 "review-requested","scverse/squidpy","Add function for calculating niches","LLehner","2024-05-27","timtreis","https://github.com/scverse/squidpy/pull/831"
 "review-requested","theislab/jump-cpg0016-segmentation","Split single massive aggregation into several smaller ones","npeschke","2024-05-19","timtreis","https://github.com/theislab/jump-cpg0016-segmentation/pull/4"
 "review-requested","scverse/squidpy","Add method to calculate embeddings for variable by distance aggregation","LLehner","2024-03-04","timtreis","https://github.com/scverse/squidpy/pull/807"
@@ -50,4 +50,3 @@
 "authored","broadinstitute/aws-infrastructure-cellpainting","Cloudformer-generated config for broad-imaging","shntnu","2020-05-11","","https://github.com/broadinstitute/aws-infrastructure-cellpainting/pull/3"
 "authored","cytomining/cytominergallery","[WIP] Add demo to create similarity matrix","shntnu","2019-09-30","","https://github.com/cytomining/cytominergallery/pull/57"
 "authored","broadinstitute/cytominer_scripts","[WIP] Option for isolated and colony profiles","shntnu","2019-06-26","","https://github.com/broadinstitute/cytominer_scripts/pull/30"
-"authored","broadinstitute/monorepo","fixed wrong crispr_feature link","AnneCarpenter","2024-11-14","","https://github.com/broadinstitute/monorepo/pull/51"
