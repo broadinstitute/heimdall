@@ -28,6 +28,7 @@
 "authored","bioFAM/cellij","minimal version of GP","timtreis","2023-06-05","","https://github.com/bioFAM/cellij/pull/74"
 "authored","bioFAM/mofax","Change metadata merge logic","timtreis","2022-10-31","","https://github.com/bioFAM/mofax/pull/7"
 "review-requested","cytomining/pycytominer","docs: add pydocsstyle linting and switch to mkdocs","kenibrewer","2024-04-03","shntnu","https://github.com/cytomining/pycytominer/pull/396"
+"authored","jump-cellpainting/datasets","Update schema - pixel size","shntnu","2024-11-29","","https://github.com/jump-cellpainting/datasets/pull/141"
 "authored","broadinstitute/carpenter-singh-lab-standards","Add pre-commit + ruff instructions","shntnu","2024-11-05","","https://github.com/broadinstitute/carpenter-singh-lab-standards/pull/2"
 "authored","broadinstitute/jump-profiling-recipe","Add NeuronalPainting as a sample project","shntnu","2024-11-05","","https://github.com/broadinstitute/jump-profiling-recipe/pull/19"
 "authored","CaicedoLab/2023_Moshkov_NatComm","Patch 1","shntnu","2024-10-19","","https://github.com/CaicedoLab/2023_Moshkov_NatComm/pull/7"
