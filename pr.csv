@@ -7,6 +7,7 @@
 "authored","tqdm/tqdm","Fix doc for thread_map","johnarevalo","2023-10-03","","https://github.com/tqdm/tqdm/pull/1518"
 "authored","conda-forge/pytdc-feedstock","updated v0.4.0","johnarevalo","2023-06-07","","https://github.com/conda-forge/pytdc-feedstock/pull/26"
 "review-requested","broadinstitute/monorepo","more annotations","johnarevalo","2024-04-23","afermg","https://github.com/broadinstitute/monorepo/pull/28"
+"authored","HugoHakem/jump_attribution","Add Marimo visualisation","afermg","2024-11-30","","https://github.com/HugoHakem/jump_attribution/pull/1"
 "authored","NixOS/nixpkgs","add lz4json","afermg","2024-07-14","","https://github.com/NixOS/nixpkgs/pull/327009"
 "review-requested","broadinstitute/monorepo","more annotations","johnarevalo","2024-04-23","leoank","https://github.com/broadinstitute/monorepo/pull/28"
 "review-requested","the-turing-way/the-turing-way","Added README-Hindi.md","bantya","2021-10-27","leoank","https://github.com/the-turing-way/the-turing-way/pull/2144"
