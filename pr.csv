@@ -1,4 +1,5 @@
 "Type","Repository","PR Title","Author","Created At","Reviewer","URL"
+"authored","cytomining/copairs","V0.4.3","alxndrkalinin","2024-12-14","","https://github.com/cytomining/copairs/pull/70"
 "review-requested","cytomining/copairs","add option to randomly sample negative pairs","jessica-ewald","2024-02-06","johnarevalo","https://github.com/cytomining/copairs/pull/56"
 "authored","chaudatascience/channel_adaptive_models","Use the neurips link","johnarevalo","2024-09-26","","https://github.com/chaudatascience/channel_adaptive_models/pull/2"
 "authored","YosefLab/scib-metrics","Skip labels before loop","johnarevalo","2024-09-24","","https://github.com/YosefLab/scib-metrics/pull/180"
