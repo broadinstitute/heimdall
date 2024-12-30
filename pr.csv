@@ -8,6 +8,7 @@
 "authored","conda-forge/pytdc-feedstock","updated v0.4.0","johnarevalo","2023-06-07","","https://github.com/conda-forge/pytdc-feedstock/pull/26"
 "authored","afermg/aliby","Unify","afermg","2024-12-04","","https://github.com/afermg/aliby/pull/1"
 "authored","HugoHakem/jump_attribution","Review","afermg","2024-12-04","","https://github.com/HugoHakem/jump_attribution/pull/3"
+"authored","NixOS/nixpkgs","lz4json: init at 2-unstable-2019-12-29","afermg","2024-07-14","","https://github.com/NixOS/nixpkgs/pull/327009"
 "review-requested","broadinstitute/monorepo","more annotations","johnarevalo","2024-04-23","leoank","https://github.com/broadinstitute/monorepo/pull/28"
 "review-requested","the-turing-way/the-turing-way","Added README-Hindi.md","bantya","2021-10-27","leoank","https://github.com/the-turing-way/the-turing-way/pull/2144"
 "authored","srijitseal/compound-annotator","Create StandardizeMolecule_v2.py","srijitseal","2023-09-16","","https://github.com/srijitseal/compound-annotator/pull/1"
